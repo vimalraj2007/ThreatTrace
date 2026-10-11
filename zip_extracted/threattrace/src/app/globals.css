@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { background: #0c1015; color: #d9dfe7; font-family: var(--font-sans), system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+@media print { body { background: #fff; color: #000; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
